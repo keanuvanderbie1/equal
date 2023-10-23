@@ -562,6 +562,30 @@ span {
     width: 100%;
 }
 
+.contact form .btn-cc {
+
+    .btn-box a {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 100%;
+        background: #00abf0;
+        border: 2px solid #00abf0;
+        border-radius: 8px;
+        font-size: 19px;
+        color: #081b29;
+        text-decoration: none;
+        font-weight: 600;
+        letter-spacing: 1px;
+        z-index: 1;
+        overflow: hidden;
+        transition: .5s;
+    }
+
+}
+
 .contact form .textarea-field {
     position: relative;
     margin: .8rem 0 2.7rem;
@@ -634,15 +658,4 @@ span {
 
 }
 
-
-.contact .btn-cc {
-    position: relative;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    width: 34.5rem;
-    height: 5rem;
-    color:#00abf0
-}
 
