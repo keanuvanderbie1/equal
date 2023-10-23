@@ -662,16 +662,16 @@ span {
     transition: .5s;
 }
 
-.btn-cc .btn:hover {
+.btn-cc:hover {
     color: var(--main-color);
 }
 
-.btn-cc .btn:nth-child(2) {
+.btn-cc:nth-child(2) {
     background: transparent;
     color: var(--main-color);
 }
 
-.btn-cc .btn:nth-child(2):hover {
+.btn-cc:nth-child(2):hover {
     color: var(--bg-color);
 }
 
