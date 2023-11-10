@@ -659,37 +659,40 @@ span {
 }
 
 
+/* Hide the hamburger menu button by default */
 .menu-toggle {
-    display: none; /* Hide the hamburger menu button by default */
+    display: none;
     flex-direction: column;
     cursor: pointer;
     margin-right: 10px;
-  }
-  
-  .bar {
+}
+
+.bar {
     width: 30px;
     height: 3px;
     background-color: #ededed;
     margin: 3px 0;
-  }
-  
-  
-  /* Add a media query to show/hide the hamburger menu button as needed */
-  @media (max-width: 768px) {
+}
+
+/* Add a media query to show/hide the hamburger menu button as needed */
+@media (max-width: 768px) {
+    /* Show the hamburger menu button on smaller screens */
     .menu-toggle {
-        display: flex; /* Show the hamburger menu button on smaller screens */
+        display: flex;
     }
-    
+
+    /* Hide the navigation menu by default on smaller screens */
     .navbar {
-        display: none; /* Hide the navigation menu by default on smaller screens */
+        display: none;
         flex-direction: column;
         width: 100%;
         position: absolute;
         top: 60px; /* Adjust the top position as needed */
         background: #081b29;
     }
-  
+
+    /* Show the navigation menu when active */
     .navbar.active {
-        display: flex; /* Show the navigation menu when active */
+        display: flex;
     }
-  }
+}
