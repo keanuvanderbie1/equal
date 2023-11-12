@@ -614,6 +614,17 @@ span {
     text-align: center;
 }
 
+.footer-links {
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.footer-links a {
+    color: var(--text-color); /* Adjust text color as needed */
+    text-decoration: none;
+    font-size: 1.2rem; /* Adjust font size as needed */
+}
+
 .footer-iconTop a {
     position: relative;
     display: inline-flex;
