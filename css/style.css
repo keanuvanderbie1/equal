@@ -606,7 +606,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: #081b29;
+    background: var(--second-b);
 }
 
 .footer-text p {
@@ -653,10 +653,6 @@ span {
     color: var(--main-color);
 }
 
-.discord {
-    scale: 0.5;
-
-}
 
 
 /* Hide the hamburger menu button by default */
